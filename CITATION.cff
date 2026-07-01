@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use results or code from this repository, please cite it as below."
+title: "longsystems-research"
+type: software
+authors:
+  - name: "longsystems"
+repository-code: "https://github.com/qosu/longsystems-research"
+license: MIT
+date-released: 2026-07-01
+abstract: >
+  Verification archive for an autonomous mathematical research pipeline.
+  Results (currently: Rado number bounds) are formally verified with SAT
+  solvers, DRAT unsatisfiability certificates, and the Lean 4 proof kernel,
+  and are checked against existing literature before publication.
+references:
+  - type: article
+    authors:
+      - name: "D. Schaal"
+    title: "A family of 3-color Rado numbers"
+    journal: "Congressus Numerantium"
+    volume: "111"
+    start: "150"
+    end: "160"
+    year: 1995
