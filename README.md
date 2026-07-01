@@ -45,18 +45,9 @@ not a new mathematical discovery — see the package README for detail.
 
 Full verification package: [`verification/rado_xy2z_k3/`](verification/rado_xy2z_k3/)
 
-## Exploratory Research
-
-[`papers/`](papers/) contains preliminary, self-conducted research on AI
-self-modification safety ("Fixed-Point Negation"). This work is **not
-peer-reviewed and has documented methodological limitations** — read
-[`papers/README.md`](papers/README.md) before citing or relying on it.
-
 ## Repository Structure
 
 - `verification/` — machine-checked mathematical results (Rado numbers)
-- `papers/` — exploratory safety research (preliminary, unpublished)
-- `src/` — supporting scripts
 
 ## Citation
 
