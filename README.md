@@ -37,13 +37,17 @@ externally audited, neither controlled by this project.
 | Result | Verification | Reference |
 |---|---|---|
 | R(x+y+2=z;3) = 40 | SAT witness + DRAT UNSAT certificate + Lean 4 kernel proof | Schaal (1995), *Congressus Numerantium* 111, 150–160 |
+| R(2x+y=z;3) = 43 | SAT witness + DRAT UNSAT certificate + Lean 4 kernel proof | Chang, De Loera, Wesley (2022), arXiv:2210.03262, Table 3 (a=2,b=1) |
 
-This result matches Schaal's (1995) closed-form formula
-R₃(x+y+c=z) = 13c+14 for c=2. It is an independent re-derivation using a
-different method (SAT solving + DRAT certificate + Lean 4 kernel proof),
-not a new mathematical discovery — see the package README for detail.
+Both results match closed-form values or table entries already published
+in the literature. They are independent re-derivations using a different
+method (SAT solving + DRAT certificate + Lean 4 kernel proof) than the
+original sources, not new mathematical discoveries — see each package's
+own README for detail.
 
-Full verification package: [`verification/rado_xy2z_k3/`](verification/rado_xy2z_k3/)
+Verification packages:
+- [`verification/rado_xy2z_k3/`](verification/rado_xy2z_k3/) — R(x+y+2=z;3)=40
+- [`verification/rado_2xpyz_3/`](verification/rado_2xpyz_3/) — R(2x+y=z;3)=43
 
 ## Repository Structure
 
