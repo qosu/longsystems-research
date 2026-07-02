@@ -22,3 +22,13 @@ references:
     start: "150"
     end: "160"
     year: 1995
+  - type: article
+    authors:
+      - name: "G.-Y. Chang"
+      - name: "J. De Loera"
+      - name: "K. Wesley"
+    title: "Rado Numbers and SAT Computations"
+    year: 2022
+    identifiers:
+      - type: other
+        value: "arXiv:2210.03262"
